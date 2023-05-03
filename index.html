@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Three.js Experiments</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app" style="position: absolute;">
+      <details>
+        <summary>🎵</summary>
+        <iframe
+          width="25%"
+          height="100"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/715173924&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        ></iframe>
+        <div
+          style="
+            font-size: 10px;
+            color: #cccccc;
+            line-break: anywhere;
+            word-break: normal;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+              Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+            font-weight: 100;
+          "
+        >
+          <a
+            href="https://soundcloud.com/potsupotsu"
+            title="potsu"
+            target="_blank"
+            style="color: #cccccc; text-decoration: none;"
+            >potsu</a
+          >
+          ·
+          <a
+            href="https://soundcloud.com/potsupotsu/sets/ivy-league-1"
+            title="ivy league"
+            target="_blank"
+            style="color: #cccccc; text-decoration: none;"
+            >ivy league</a
+          >
+        </div>
+      </details>
+      <details>
+        <summary>❔</summary>
+        <p>WASD - Move and Tilt</p>
+        <p>Space - Turn on/off Throttle</p>
+        <p>Arrow Keys - Move camera</p>
+      </details>
+    </div>
+
+    <span id="loading">Loading... Wait a second</span>
+    <!--
+    <audio loop='loop' autoplay>
+      <source src='plane.mp3' type='audio/mp3' />
+    </audio>-->
+
+    <script src="src/gamecontroller.min.js"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
